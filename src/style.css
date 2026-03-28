@@ -10,6 +10,22 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .pf-avail-dot {
+    animation: none;
+  }
+
+  .pf-link,
+  .pf-link-arrow,
+  .pf-skill {
+    transition: none;
+  }
+}
+
 /* Global Variables */
 :root {
   --color-bg: #0a0a0a;
@@ -98,6 +114,7 @@ a:hover {
   background: var(--color-bg);
   color: var(--color-text);
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: var(--font-family-primary);
   padding: 6rem 5vw 8rem;
   position: relative;
@@ -232,6 +249,7 @@ a:hover {
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 4.5rem;
+  list-style: none;
 }
 
 .pf-skill {
