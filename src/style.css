@@ -275,12 +275,6 @@ a:focus-visible {
   color: var(--color-accent);
 }
 
-.pf-skill:focus-visible {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-  outline: none;
-}
-
 .pf-links {
   display: flex;
   gap: 24px;
@@ -399,5 +393,3 @@ a:focus-visible {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-}
