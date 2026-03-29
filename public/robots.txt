@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gurpreetkaurmaheru.github.io/portfolio-2026/sitemap.xml
